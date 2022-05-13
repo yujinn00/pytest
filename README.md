@@ -10,7 +10,7 @@ def test_file1_method1():
   x = 5
   y = 6
   assert x + 1 == y, "Test Failed"
-  # assert x == y, "Test Failed"
+  assert x == y, "Test Failed"
 
 def test_file1_method2():
   x = 5
@@ -18,10 +18,10 @@ def test_file1_method2():
   assert x + 1 == y, "Test Failed"
 
 def test_file1_method3():
-  # assert "hello" == "Hai"
+  assert "hello" == "Hai"
   assert 4 == 4
   assert True
-  # assert False
+  assert False
 
 
 
@@ -70,7 +70,7 @@ def solution(s):
 
 
 
-# parametrize 사용 O
+parametrize 사용 O
 import pytest
 from solution import solution
 
@@ -88,7 +88,7 @@ def test_check_inputsize(input1, output):
 
 
 
-# parametrize 사용 X
+parametrize 사용 X
 import pytest
 from solution import solution
 
