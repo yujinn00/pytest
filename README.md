@@ -1,6 +1,6 @@
 # pytest
 
-##### test_sample.py #####
+## test_sample.py ##
 
 
 
@@ -25,7 +25,7 @@ def test_file1_method3():
 
 
 
-##### test_sample1.py #####
+## test_sample1.py ##
 
 
 
@@ -41,7 +41,7 @@ def test_file1_method2():
 
 
 
-##### test_sample2.py #####
+## test_sample2.py ##
 
 
 
@@ -57,7 +57,7 @@ def test_file1_method2():
 
 
 
-##### solution.py #####
+## solution.py ##
 
 
 
@@ -66,7 +66,7 @@ def solution(s):
 
 
 
-##### test_sample3.py #####
+## test_sample3.py ##
 
 
 
@@ -84,7 +84,7 @@ def test_check_inputsize(input1, output):
 
 
 
-##### test_sample4.py #####
+## test_sample4.py ##
 
 
 
